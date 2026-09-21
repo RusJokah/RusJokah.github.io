@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dmitry Anufriev — Desarrollador web freelance</title>
+<meta name="description" content="Desarrollador web freelance en Vilanova i la Geltrú. Diseño, construyo y mantengo webs y tiendas online a medida: WordPress, WooCommerce, HTML, CSS y JavaScript.">
+<meta name="author" content="Dmitry Anufriev">
+<meta name="theme-color" content="#04060b">
+<link rel="canonical" href="https://rusjokah.github.io/">
+
+<!-- Cómo se ve el enlace al compartirlo en WhatsApp, LinkedIn... -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_ES">
+<meta property="og:title" content="Dmitry Anufriev — Desarrollador web freelance">
+<meta property="og:description" content="Webs y tiendas online a medida, mantenimiento y SEO para pequeños negocios de Barcelona y alrededores.">
+<meta property="og:url" content="https://rusjokah.github.io/">
+<meta property="og:image" content="https://rusjokah.github.io/assets/img/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+
+<link rel="preload" as="image" href="assets/img/dmitry-anufriev.webp" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Saltar al contenido</a>
+
+<header class="nav" id="nav">
+  <a class="nav__brand" href="#inicio"><span></span>dmitry.anufriev</a>
+  <nav class="nav__links" id="menu" aria-label="Secciones">
+    <a href="#sobre-mi" style="--i:1">Sobre mí</a>
+    <a href="#proyecto" style="--i:2">Proyecto</a>
+    <a href="#servicios" style="--i:3">Servicios</a>
+    <a href="#trayectoria" style="--i:4">Trayectoria</a>
+    <a href="#stack" style="--i:5">Stack</a>
+    <a href="#contacto" class="nav__mobile-cta" style="--i:6">Hablemos →</a>
+  </nav>
+  <a class="btn btn--primary nav__cta" href="#contacto">Hablemos<span class="dot"></span></a>
+  <button class="nav__toggle" id="toggle" type="button" aria-expanded="false" aria-controls="menu">
+    <i aria-hidden="true"></i><span>Menú</span>
+  </button>
+</header>
+
+<main id="contenido">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero" id="inicio">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__mesh" id="mesh"></div>
+      <div class="hero__grid" id="grid"></div>
+      <div class="hero__fade"></div>
+    </div>
+
+    <div class="wrap hero__inner">
+      <div class="hero__copy">
+      <p class="hero__eyebrow" data-enter style="--d:.05s"><i></i>Disponible para nuevos proyectos</p>
+
+      <h1 class="hero__name" data-enter style="--d:.15s">Dmitry<em>Anufriev</em></h1>
+
+      <p class="hero__role" data-enter style="--d:.28s">
+        <b>Desarrollador web freelance</b> · Vilanova i la Geltrú, Barcelona
+      </p>
+
+      <p class="hero__claim" data-enter style="--d:.38s">
+        Diseño, construyo y mantengo la web de tu negocio de principio a fin: dominio, hosting,
+        diseño a medida, tienda online y el mantenimiento de después. Tú te dedicas a lo tuyo.
+      </p>
+
+      <div class="hero__actions" data-enter style="--d:.48s">
+        <a class="btn btn--primary" href="#proyecto">Ver el proyecto<span class="dot"></span></a>
+        <a class="btn btn--ghost" href="#contacto">Pedir presupuesto</a>
+      </div>
+
+      <dl class="hero__meta" data-enter style="--d:.58s">
+        <div><dt>Especialidad</dt><dd>Webs y tiendas a medida</dd></div>
+        <div><dt>Stack principal</dt><dd>WordPress · JS · WooCommerce</dd></div>
+        <div><dt>Idiomas</dt><dd>Español · Català · Русский · English</dd></div>
+        <div><dt>Contacto directo</dt><dd><a href="tel:+34678332441">678 33 24 41</a></dd></div>
+      </dl>
+      </div>
+
+      <figure class="hero__portrait" data-enter style="--d:.22s">
+        <img id="portrait" src="assets/img/dmitry-anufriev.webp" width="720" height="1031" decoding="async" fetchpriority="high"
+             alt="Retrato de Dmitry Anufriev, desarrollador web, con traje azul marino.">
+      </figure>
+    </div>
+
+    <p class="hero__scroll" aria-hidden="true"><i></i>scroll</p>
+  </section>
+
+  <!-- ===================== SOBRE MÍ ===================== -->
+  <section class="section" id="sobre-mi">
+    <div class="wrap about">
+      <div>
+        <p class="label" data-reveal>/ sobre mí</p>
+        <h2 data-reveal>Aprendí construyendo cosas que funcionan</h2>
+        <p class="lede" data-reveal>
+          Mi formación es autodidacta: cursos con certificado de HTML, CSS, JavaScript, React y
+          Angular en Udemy, y después horas de práctica montando proyectos reales hasta que salen bien.
+        </p>
+        <p class="body-text" data-reveal style="margin-top:1.4rem">
+          No vengo de una carrera de informática, vengo de resolver problemas. Esa es también la forma
+          en la que trabajo con un cliente: entiendo qué necesita el negocio, lo monto, lo pruebo en móvil
+          y en ordenador, y me quedo después para mantenerlo. Me importa el detalle — que la web cargue
+          rápido, que se vea bien en un teléfono y que el cliente no tenga que tocar nada.
+        </p>
+        <p class="body-text" data-reveal>
+          Sigo formándome cada semana. Ahora mismo combino el desarrollo web con mi trabajo como
+          recepcionista de noche, y ese turno me da algo que valoro mucho: horas tranquilas para
+          programar, estudiar y responder a clientes sin prisas.
+        </p>
+
+        <div class="about__courses" data-reveal>
+          <span class="chip">Udemy · HTML, CSS y JS ✓</span>
+          <span class="chip">Udemy · React ✓</span>
+          <span class="chip">Udemy · Angular ✓</span>
+          <span class="chip">Autodidacta desde 2022</span>
+        </div>
+      </div>
+
+      <dl class="about__aside" data-reveal>
+        <div class="about__row"><dt>Base</dt><dd>Vilanova i la Geltrú (08800)</dd></div>
+        <div class="about__row"><dt>Trabajo con</dt><dd>Pequeños negocios y autónomos</dd></div>
+        <div class="about__row"><dt>Modalidad</dt><dd>Remoto · presencial en Barcelona</dd></div>
+        <div class="about__row"><dt>Fuera del código</dt><dd>SEO, diseño gráfico e impresión 3D</dd></div>
+        <div class="about__row"><dt>Código</dt><dd><a href="https://github.com/RusJokah" target="_blank" rel="noopener">github.com/RusJokah</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <!-- ===================== PROYECTO DESTACADO ===================== -->
+  <section class="section case" id="proyecto">
+    <div class="wrap">
+      <div class="case__head">
+        <div>
+          <p class="label" data-reveal>/ proyecto destacado</p>
+          <h2 class="case__title" data-reveal>
+            <a href="https://www.joanvalera.com" target="_blank" rel="noopener">joanvalera.com</a>
+          </h2>
+          <p class="case__kicker" data-reveal>Web y tienda online para un fotógrafo profesional de Barcelona</p>
+        </div>
+        <div class="case__stack" data-reveal>
+          <span class="chip">WordPress</span>
+          <span class="chip">Elementor</span>
+          <span class="chip">Hostinger</span>
+          <span class="chip">Pic-Time</span>
+          <span class="chip">CSS a medida</span>
+          <span class="chip">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="case__grid">
+        <div data-reveal>
+          <div class="browser" id="browser">
+            <div class="browser__bar">
+              <div class="browser__dots"><i></i><i></i><i></i></div>
+              <div class="browser__url">https://www.joanvalera.com</div>
+            </div>
+            <a class="shot" href="https://www.joanvalera.com" target="_blank" rel="noopener">
+              <img src="assets/img/joanvalera-portada.webp" width="1280" height="584" loading="lazy" decoding="async"
+                   alt="Portada de joanvalera.com: cabecera con el logotipo Joan Valera Photography, menú de navegación y una fotografía a pantalla completa del mar rompiendo contra un espigón.">
+            </a>
+          </div>
+          <p class="case__note">Portada en vivo · <a href="https://www.joanvalera.com" target="_blank" rel="noopener">www.joanvalera.com</a></p>
+        </div>
+
+        <div>
+          <div class="case__block" data-reveal>
+            <h3>El encargo</h3>
+            <p class="body-text">
+              Joan Valera es fotógrafo profesional con más de 20 años de experiencia (gastronomía, hoteles,
+              producto, retrato e inmobiliaria). Necesitaba un sitio que enseñara su trabajo con la calidad
+              que merece y que, además, canalizara la venta y la entrega de las sesiones a sus clientes.
+            </p>
+          </div>
+
+          <div class="case__block" data-reveal>
+            <h3>Lo que construí</h3>
+            <ul class="case__list">
+              <li>Sitio completo en WordPress alojado en Hostinger, con dominio, correo profesional y certificado SSL configurados.</li>
+              <li>Integración con Pic-Time, la plataforma de galerías y venta para fotógrafos: la web lleva al cliente hasta su galería privada y la compra se gestiona allí, sin duplicar catálogo ni mantenimiento.</li>
+              <li>Maquetación con Elementor extendida con CSS y JavaScript propios donde el editor no llegaba: comportamientos, transiciones y ajustes finos de diseño.</li>
+              <li>Diseño responsive revisado en móvil, tablet y escritorio, con las imágenes optimizadas para que la galería cargue rápido.</li>
+              <li>SEO on-page: estructura, textos, imágenes optimizadas, sitemap, robots.txt y alta en Google Search Console y Analytics.</li>
+              <li>Mantenimiento continuado: actualizaciones, copias de seguridad, seguridad y cambios de contenido.</li>
+            </ul>
+          </div>
+
+          <div class="case__cta" data-reveal>
+            <a class="btn btn--primary" href="https://www.joanvalera.com" target="_blank" rel="noopener">Visitar la web<span class="dot"></span></a>
+            <a class="btn btn--ghost" href="#contacto">Quiero algo así</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICIOS ===================== -->
+  <section class="section" id="servicios">
+    <div class="wrap">
+      <p class="label" data-reveal>/ servicios</p>
+      <h2 style="font-size:var(--step-3);max-width:20ch;margin-bottom:1.2rem" data-reveal>Todo lo que tu negocio necesita para existir en internet</h2>
+      <p class="lede" data-reveal style="margin-bottom:3.2rem">
+        Puedes contratar una cosa suelta o dejarlo todo en mis manos. Trabajo sobre todo con autónomos
+        y pequeñas empresas que no quieren pelearse con la parte técnica.
+      </p>
+    </div>
+
+    <div class="services" data-reveal>
+      <article class="service">
+        <p class="service__num">01</p>
+        <h3>Diseño web</h3>
+        <p class="service__price">desde 600 €</p>
+        <p>Webs corporativas, landings, portfolios, blogs y páginas de reservas. Diseño responsive, optimización de velocidad y migraciones de webs ya existentes.</p>
+        <ul>
+          <li>WordPress</li><li>Landing pages</li><li>Portfolios</li><li>Reservas</li><li>Restaurantes</li><li>Hoteles</li><li>Fotógrafos</li>
+        </ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">02</p>
+        <h3>Tiendas online</h3>
+        <p class="service__price">desde 1.200 €</p>
+        <p>Tienda en WooCommerce montada de cero: catálogo, fichas de producto, pasarela de pago, envíos y todo el aviso legal que necesita una tienda en España.</p>
+        <ul><li>WooCommerce</li><li>Fichas de producto</li><li>Pagos</li><li>Legal RGPD</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">03</p>
+        <h3>SEO</h3>
+        <p class="service__price">desde 80 €/mes</p>
+        <p>Que te encuentren cuando te buscan. SEO on-page, palabras clave, optimización de imágenes y SEO local para negocios de zona.</p>
+        <ul><li>SEO on-page</li><li>SEO local</li><li>Search Console</li><li>Analytics</li><li>Sitemap</li><li>Velocidad</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">04</p>
+        <h3>Mantenimiento</h3>
+        <p class="service__price">desde 20 €/mes</p>
+        <p>La web no se cuida sola. Actualizaciones de WordPress y plugins, copias de seguridad, seguridad, monitorización y los cambios pequeños del día a día.</p>
+        <ul><li>Actualizaciones</li><li>Backups</li><li>Seguridad</li><li>Soporte</li><li>Informes</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">05</p>
+        <h3>Pack para pequeñas empresas</h3>
+        <p class="service__price">desde 50 €/mes</p>
+        <p>El paquete completo para empezar: dominio, hosting, correo profesional, web, ficha de Google y SEO local. Un solo interlocutor para todo.</p>
+        <ul><li>Dominio</li><li>Hosting</li><li>Correo pro</li><li>Google Business</li><li>SSL</li><li>Formularios</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">06</p>
+        <h3>Diseño gráfico</h3>
+        <p class="service__price">desde 300 €</p>
+        <p>La imagen de la marca, coherente con la web: logotipo, papelería, carteles y un manual básico de identidad visual con tipografía y paleta.</p>
+        <ul><li>Logos</li><li>Tarjetas</li><li>Flyers</li><li>Catálogos</li><li>Menús</li><li>Branding</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">07</p>
+        <h3>Informática a domicilio</h3>
+        <p class="service__price">desde 25 €/h</p>
+        <p>Soporte técnico presencial y remoto: Windows, virus, ampliaciones de SSD y RAM, copias de seguridad, impresoras, redes y montaje de ordenadores.</p>
+        <ul><li>Windows</li><li>SSD y RAM</li><li>Backups</li><li>Redes y WiFi</li><li>NAS</li><li>Montaje de PC</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">08</p>
+        <h3>Fotografía profesional</h3>
+        <p class="service__price">a medida</p>
+        <p>Con Joan Valera, fotógrafo con más de 20 años de experiencia: gastronomía, hoteles, producto, retrato e inmobiliaria, con edición profesional incluida.</p>
+        <ul><li>Gastronómica</li><li>Hoteles</li><li>Producto</li><li>Inmobiliaria</li><li>Retratos</li></ul>
+      </article>
+
+      <article class="service">
+        <p class="service__num">09</p>
+        <h3>¿Otra cosa?</h3>
+        <p>Si lo que necesitas no está en esta lista, escríbeme igualmente. Si puedo ayudarte lo hago, y si no, te digo con quién hacerlo.</p>
+        <ul><li><a href="#contacto">Cuéntamelo</a></li></ul>
+      </article>
+    </div>
+
+    <div class="wrap">
+      <p class="services__note" data-reveal>
+        Los precios son orientativos y dependen del alcance real del proyecto. Te paso siempre
+        un presupuesto cerrado antes de empezar: sin horas extra sorpresa ni letra pequeña.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== TRAYECTORIA ===================== -->
+  <section class="section" id="trayectoria">
+    <div class="wrap">
+      <p class="label" data-reveal>/ trayectoria</p>
+      <div class="work">
+        <div>
+          <h2 style="font-size:var(--step-2);margin-bottom:1.8rem" data-reveal>Otros trabajos</h2>
+
+          <article class="mini" data-reveal>
+            <h3>Este portfolio</h3>
+            <p>
+              La web que estás viendo. HTML, CSS y JavaScript puro, sin frameworks ni dependencias:
+              carga rápida, accesible por teclado y responsive de verdad. También es una muestra de código.
+            </p>
+            <div class="mini__tags"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Sin frameworks</span></div>
+          </article>
+
+          <article class="mini" data-reveal>
+            <h3>Soporte informático a particulares y empresas</h3>
+            <p>
+              Instalación y optimización de Windows, montaje y ampliación de equipos, copias de seguridad,
+              redes domésticas y configuración de correo. Trabajo recurrente en la zona del Garraf.
+            </p>
+            <div class="mini__tags"><span class="chip">Windows</span><span class="chip">Hardware</span><span class="chip">Redes</span></div>
+          </article>
+        </div>
+
+        <div>
+          <h2 style="font-size:var(--step-2);margin-bottom:1.8rem" data-reveal>Experiencia laboral</h2>
+          <div class="timeline">
+            <article class="tl" data-reveal>
+              <p class="tl__when">2024 — Actualidad</p>
+              <h3>Recepcionista nocturno / Night audit</h3>
+              <p class="tl__where">Hotel Eurostars Sitges 5★</p>
+              <p>Turno de noche: check-in y check-out, atención telefónica, resolución de incidencias y cierre del día. Trato directo con huésped internacional y autonomía total durante el turno.</p>
+            </article>
+
+            <article class="tl" data-reveal>
+              <p class="tl__when">2022 — 2024</p>
+              <h3>Transportista 1ª</h3>
+              <p class="tl__where">Aquaservice S.L.</p>
+              <p>Reparto con rutas asignadas y gestión de inventario por zonas, con instalación y configuración de equipos en clientes empresariales y residenciales. Cero accidentes y carnet íntegro.</p>
+            </article>
+
+            <article class="tl" data-reveal>
+              <p class="tl__when">Desde 2022</p>
+              <h3>Formación autodidacta en desarrollo web</h3>
+              <p class="tl__where">Udemy · cursos con certificado</p>
+              <p>HTML, CSS y JavaScript, después React y Angular. Cada certificado respaldado por un proyecto real, que es lo que de verdad se enseña.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== STACK ===================== -->
+  <section class="section" id="stack">
+    <div class="wrap">
+      <p class="label" data-reveal>/ stack</p>
+      <h2 style="font-size:var(--step-3);max-width:16ch;margin-bottom:2.6rem" data-reveal>Con lo que trabajo</h2>
+
+      <div class="stack" data-reveal>
+        <div class="tech"><b>HTML</b><span>estructura semántica</span></div>
+        <div class="tech"><b>CSS</b><span>diseño y responsive</span></div>
+        <div class="tech"><b>JavaScript</b><span>interacción</span></div>
+        <div class="tech"><b>React</b><span>interfaces</span></div>
+        <div class="tech"><b>Angular</b><span>interfaces</span></div>
+        <div class="tech"><b>WordPress</b><span>gestor de contenidos</span></div>
+        <div class="tech"><b>Elementor</b><span>maquetación</span></div>
+        <div class="tech"><b>WooCommerce</b><span>tiendas online</span></div>
+        <div class="tech"><b>Hostinger</b><span>hosting y dominios</span></div>
+        <div class="tech"><b>Git &amp; GitHub</b><span>control de versiones</span></div>
+        <div class="tech"><b>SEO</b><span>posicionamiento</span></div>
+        <div class="tech"><b>Impresión 3D</b><span>modelado y prototipos</span></div>
+      </div>
+
+      <div class="langs" data-reveal>
+        <span class="chip">Español · nativo</span>
+        <span class="chip">Русский · nativo</span>
+        <span class="chip">Català</span>
+        <span class="chip">English</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACTO ===================== -->
+  <section class="section contact" id="contacto">
+    <div class="wrap contact__inner">
+      <div>
+        <p class="label" data-reveal>/ contacto</p>
+        <h2 data-reveal>Cuéntame qué necesitas</h2>
+        <p class="lede" data-reveal>
+          Escríbeme con dos líneas sobre tu negocio y te respondo con una propuesta concreta:
+          qué haría, cuánto cuesta y cuánto tarda. Sin compromiso y sin tecnicismos.
+        </p>
+
+        <div class="contact__links" data-reveal>
+          <a class="clink" href="mailto:dima-dimi@hotmail.es?subject=Consulta%20web%20desde%20tu%20portfolio" target="_blank" rel="noopener">
+            <span>email</span><b>dima-dimi@hotmail.es</b>
+          </a>
+          <a class="clink" href="tel:+34678332441" target="_blank" rel="noopener"><span>teléfono</span><b>678 33 24 41</b></a>
+          <a class="clink" href="https://www.linkedin.com/in/dmitry-anufriev" target="_blank" rel="noopener"><span>linkedin</span><b>dmitry-anufriev</b></a>
+          <a class="clink" href="https://github.com/RusJokah" target="_blank" rel="noopener"><span>github</span><b>RusJokah</b></a>
+          <div class="clink"><span>zona</span><b>Vilanova i la Geltrú · Barcelona</b></div>
+        </div>
+      </div>
+
+      <form class="form" id="form" data-reveal novalidate>
+        <div class="field">
+          <label for="f-nombre">Tu nombre</label>
+          <input id="f-nombre" name="nombre" type="text" autocomplete="name" required placeholder="Nombre y negocio">
+        </div>
+        <div class="field">
+          <label for="f-email">Tu email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" required placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="field">
+          <label for="f-tipo">Qué necesitas</label>
+          <select id="f-tipo" name="tipo">
+            <option>Una web nueva</option>
+            <option>Una tienda online</option>
+            <option>Mejorar o migrar mi web actual</option>
+            <option>Mantenimiento y soporte</option>
+            <option>SEO</option>
+            <option>Diseño gráfico</option>
+            <option>Informática / soporte técnico</option>
+            <option>Otra cosa</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-mensaje">Cuéntame un poco más</label>
+          <textarea id="f-mensaje" name="mensaje" required placeholder="A qué te dedicas, qué tienes ahora y qué te gustaría conseguir."></textarea>
+        </div>
+        <a class="btn btn--primary" id="f-send" href="mailto:dima-dimi@hotmail.es" target="_blank" rel="noopener" style="justify-content:center">Enviar mensaje<span class="dot"></span></a>
+        <p class="form__note" id="form-note">Se abre tu programa de correo con el mensaje ya escrito. Si prefieres, escríbeme directamente a dima-dimi@hotmail.es</p>
+
+        <div class="fallback" id="fallback" hidden>
+          <p>¿No se ha abierto tu correo? Copia el mensaje y envíamelo a <a href="mailto:dima-dimi@hotmail.es">dima-dimi@hotmail.es</a>.</p>
+          <textarea id="f-copy" readonly rows="6" aria-label="Mensaje listo para copiar"></textarea>
+          <button class="btn btn--ghost" type="button" id="f-copybtn" style="justify-content:center">Copiar mensaje</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer wrap">
+  <p>© <span id="year">2026</span> Dmitry Anufriev · Desarrollador web freelance</p>
+  <div class="footer__right">
+    <a href="https://github.com/RusJokah" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/dmitry-anufriev" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="#inicio">Volver arriba</a>
+  </div>
+</footer>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Dmitry Anufriev",
+  "jobTitle":"Desarrollador web freelance",
+  "email":"mailto:dima-dimi@hotmail.es",
+  "telephone":"+34678332441",
+  "address":{"@type":"PostalAddress","addressLocality":"Vilanova i la Geltrú","postalCode":"08800","addressCountry":"ES"},
+  "knowsLanguage":["es","ru","ca","en"],
+  "knowsAbout":["HTML","CSS","JavaScript","React","Angular","WordPress","WooCommerce","SEO"],
+  "url":"https://rusjokah.github.io/",
+  "image":"https://rusjokah.github.io/assets/img/og-cover.jpg",
+  "sameAs":["https://github.com/RusJokah","https://www.linkedin.com/in/dmitry-anufriev","https://www.joanvalera.com"]
+}
+</script>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
